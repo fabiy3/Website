@@ -1,0 +1,434 @@
+giraffe pic
+
+https://www.bing.com/images/search?view=detailV2&ccid=1TEF7IlX&id=8C39482F1BE3C7ED1D6159739EC69E9491C82836&thid=OIP.1TEF7IlXK4d3mXu7IWJwlQHaCt&mediaurl=http%3a%2f%2fwww.safariprofessionals.org%2fwp-content%2fuploads%2fhome_4.jpg&exph=733&expw=2000&q=safari&simid=608017078465397551&selectedIndex=7&qpvt=safari&ajaxhist=0
+
+index.html
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Fanuel Abiy">
+    <meta name="author" content="Fanuel Abiy">
+    <title>Fanuel Abiy</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Aguafina+Script" rel="stylesheet">
+    <script src="script1.js"></script>
+
+  </head>
+  <body>
+
+      <nav class="navbar navbar-default">
+    <div class="container-fluid nav-style">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#" style="color:white;">Welcome</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#" style="color:white;">Home<span class="sr-only">(current)</span></a></li>
+          <li><a href="project.html">Portfolio</a></li>
+          <li><a href="resume10.pdf">Résumé</a></li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+
+          <li><a href="https://linkedin.com/in/fanuelabiy
+  ">Linkedin</a></li>
+          <li><a href="https://github.com/fabiy3">Github</a></li>
+          <li><a href="mailto:fanuelabiy@gatech.edu">Email</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+
+      <div class="container-fluid h-100 main">
+
+          <div id = "name">
+
+              <button type="button" class="btn btn-light btn-lg"  style="background-color:transparent" data-toggle="modal" 
+              id = "modalbtn" data-target="#myModal"> 
+                <h1 class="display-1" style="color:white;">Fanuel Abiy</h1></button>
+
+
+             <!-- Modal -->
+             <div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+               <div class="modal-dialog modal-lg ">
+
+                 <!-- Modal content-->
+                 <div class="modal-content">
+
+
+                   <!-- <div class="modal-header">
+                     <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                    <h1 class="modal-title">Profile</h1>
+
+                   </div> -->
+
+
+                   <div class="modal-body">
+
+                       <div class="row">
+                           <div class="col-md-3" id ="intro-pic">
+                               <img src="jun.jpg" class="img-fluid border border-warning rounded shadow-lg p-3 mb-5" alt="Responsive image">
+
+                               <h3>Fanuel Abiy</h3>
+                               <h4>Developer</h4>
+                               <h5>Seeking Software Enginnering Internship for Summer of 2020</h5>
+                           </div>
+
+
+                           <div class="col-md-8">
+                               <h1 class="intro-h">Hey, I'm Fanuel!</h1>
+
+                               <p class="intro-p">I'm a junior at Georgia Tech working towards earning my B.S. in Computer Science with threads in Intelligence and People. 
+                                   I am primarily interested in Back-End development and autonomous technologies. In my spare time, I like to learn about the different aspects of building computers and play soccer.</p>
+                                <p class="intro-p">One day, I hope to more opportunities to travel because I have a desire to experience different cultures and broaden my scope of the world.</p>
+                               <hr></hr>
+
+                               <h3>Skills</h3>
+
+                               <div class="row">
+                                   <div class="col-lg-4 " id = "starsList">
+                                       <ul class="no-bullets">
+                                           <li>
+                                               <span class="ability-title">Java</span>
+                                               <span class="ability-score">
+                                                   <span class="glyphicon glyphicon-star filled"></span>
+                                                   <span class="glyphicon glyphicon-star filled"></span>
+                                                   <span class="glyphicon glyphicon-star filled"></span>
+                                                   <span class="glyphicon glyphicon-star filled"></span>
+                                                   <span class="glyphicon glyphicon-star unfilled"></span>
+
+
+                                               </span>
+                                           </li>
+                                           <li>
+                                               <span class="ability-title">Python</span>
+                                               <span class="ability-score">
+                                                   <span class="glyphicon glyphicon-star filled"></span>
+                                                   <span class="glyphicon glyphicon-star filled"></span>
+                                                   <span class="glyphicon glyphicon-star unfilled"></span>
+                                                   <span class="glyphicon glyphicon-star unfilled"></span>
+                                                   <span class="glyphicon glyphicon-star unfilled"></span>
+                                               </span>
+                                           </li>
+                                           
+                                        </ul>
+                                    </div>
+                                        <div class="col-lg-4" id="starsList">
+                                            <ul class="no-bullets">
+                                                <li>
+                                                    <span class="ability-title">Andriod</span>
+                                                    <span class="ability-score">
+                                                        <span class="glyphicon glyphicon-star filled"></span>
+                                                        <span class="glyphicon glyphicon-star filled"></span>
+                                                        <span class="glyphicon glyphicon-star filled"></span>
+                                                        <span class="glyphicon glyphicon-star filled"></span>
+                                                        <span class="glyphicon glyphicon-star unfilled"></span>
+                                                    </span>
+                                                </li>
+                                                <li>
+                                                    <span class="ability-title">Javascript</span>
+                                                    <span class="ability-score">
+                                                        <span class="glyphicon glyphicon-star filled"></span>
+                                                        <span class="glyphicon glyphicon-star filled"></span>
+                                                        <span class="glyphicon glyphicon-star filled"></span>
+                                                        <span class="glyphicon glyphicon-star unfilled"></span>
+                                                        <span class="glyphicon glyphicon-star unfilled"></span>
+                                                    </span>
+                                                </li>
+                                                <li>
+                                                    <span class="ability-title">C</span>
+                                                    <span class="ability-score">
+                                                        <span class="glyphicon glyphicon-star filled"></span>
+                                                        <span class="glyphicon glyphicon-star filled"></span>
+                                                        <span class="glyphicon glyphicon-star filled"></span>
+                                                        <span class="glyphicon glyphicon-star unfilled"></span>
+                                                        <span class="glyphicon glyphicon-star unfilled
+                                                        "></span>
+                                                    </span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                </div>
+                               <hr></hr>
+                               <h3>Languages</h3>
+                               <div class="row">
+                                   <div class="col-md-4" id = "starsList">
+                                       <ul class="no-bullets">
+                                           <li>
+                                               <span class="ability-title">English</span>
+                                               <span class="ability-score">
+                                                   <span class="glyphicon glyphicon-star filled"></span>
+                                                   <span class="glyphicon glyphicon-star filled"></span>
+                                                   <span class="glyphicon glyphicon-star filled"></span>
+                                                   <span class="glyphicon glyphicon-star filled"></span>
+                                                   <span class="glyphicon glyphicon-star unfilled"></span>
+                                               </span>
+                                           </li>
+                                           <li>
+                                               <span class="ability-title">Amharic</span>
+                                               <span class="ability-score">
+                                                   <span class="glyphicon glyphicon-star filled"></span>
+                                                   <span class="glyphicon glyphicon-star filled"></span>
+                                                   <span class="glyphicon glyphicon-star filled"></span>
+                                                   <span class="glyphicon glyphicon-star filled"></span>
+                                                   <span class="glyphicon glyphicon-star unfilled"></span>
+
+
+                                               </span>
+                                           </li>
+                                           <li>
+                                               <span class="ability-title">Japanese</span>
+                                               <span class="ability-score">
+                                                   <span class="glyphicon glyphicon-star filled"></span>
+                                                   <span class="glyphicon glyphicon-star filled"></span>
+                                                   <span class="glyphicon glyphicon-star filled"></span>
+                                                   <span class="glyphicon
+
+                                                    glyphicon-star unfilled"></span>
+                                                   <span class="glyphicon glyphicon-star unfilled"></span>
+                                               </span>
+                                           </li>
+                                        </ul>
+                                   </div>
+
+                               </div>
+                           </div>
+                       </div>
+
+                   </div>
+
+
+
+                   <div class="modal-footer">
+                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                   </div>
+                 </div>
+
+               </div>
+             </div>
+
+
+
+          </div>
+      </div>
+      <footer class="page-footer font-small">
+          <div class="date" style="color:white;"><p id="date" style="color:white;"></p></div>
+          <script class="text/javaScript">
+          function update(){
+              var currentDate = new Date();
+          document.getElementById("date").innerHTML = currentDate.toLocaleString();
+          setTimeout(update, 400);
+          }
+          update();
+          </script>
+      </footer>
+      <script>
+        function change() {
+
+            document.getElementById("name").innerHTML = "Good Morning";
+
+        }
+      </script>
+      <script>
+        $(document).ready(function(){
+          $("#myBtn").click(function(){
+            $("#myModal").modal();
+          });
+        });
+        </script>
+
+
+    </body>
+</html>
+
+
+script1.js
+
+$('#myModal').on('shown.bs.modal', function () {
+
+    $('#myInput').trigger('focus')
+  
+  })
+  
+style.css
+
+body {
+    display: flex;
+    height: 100vh;
+    width: auto;
+    flex-direction: column;
+}
+
+.display-1:hover {
+    cursor: pointer;
+    color: white !important;
+}
+
+.nav-style{
+    background: rgb(192, 93, 47);
+}
+
+a:hover {
+  background-color: #f0f4f4!important;
+  color:  rgba(192, 93, 47, 0.74) !important;
+}
+a{
+    color: white !important;
+}
+
+
+.main {
+    width: 100vw;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: linear-gradient(
+     rgba(255, 204, 128, 0.74),
+     rgba(204, 122, 0, 0.30)
+    ), url("coverpage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+
+}
+
+.display-1 {
+    color: white;
+    font-size: 7vh;
+    font-family: 'Aguafina Script', cursive;
+    height: inherit;
+    width: inherit;
+}
+
+
+#modalbtn {
+    -webkit-transition : border 200ms ease-out;
+   -moz-transition : border 200ms ease-out;
+   -o-transition : border 200ms ease-out;
+}
+#modalbtn:hover {
+    background-color: rgb(192, 93, 47) !important;
+  opacity: 0.8;
+  color: white !important;
+  border : 5px solid white;
+}
+
+
+
+#date {
+    color: blue;
+    text-align: center;
+}
+
+
+.modal-dialog {
+
+}
+
+
+.modal-content {
+    height: auto;
+    background-color:rgba(192, 93, 47, 0.74);
+    color:rgba(255, 255, 255, 0.85) !important;
+}
+
+.modal-header {
+
+}
+
+#intro-pic {
+text-align: center;
+}
+
+.intro-h{
+    text-align: center;
+}
+
+.intro-p{
+  text-indent: 2em;
+}
+
+#starsList {
+
+}
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+
+
+
+ul.no-bullets {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#starsList ul > li .ability-score {
+    float: right;
+}
+
+.glyphicon-star {
+  color:rgba(255, 255, 255, 0.5);
+}
+
+.half {
+    position:relative;
+}
+
+.half::after {
+    content:'';
+    position:absolute;
+    z-index:1;
+    background-color:rgba(192, 93, 47);
+    width: 50%;
+    height: 100%;
+    left: 50%;
+}
+
+.unfilled {
+    position:relative;
+    color:rgba(255, 255, 255, 0.25);
+}
+
+
+
+
+.img-fluid {
+    border-radius: 50%;
+}
+
+footer {
+    margin-top: 0.5em;
+    background: rgb(192, 93, 47);
+    color: white !important;
+}
+
+

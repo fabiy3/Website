@@ -32,7 +32,7 @@ a{
     background: linear-gradient(
      rgba(255, 204, 128, 0.74),
      rgba(204, 122, 0, 0.30)
-    ), url("coverpage.jpg");
+    ), url("cover.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
